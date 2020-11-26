@@ -93,7 +93,7 @@ public class EnemyController : MonoBehaviour
 
         if (collision.gameObject.name == "Wall(Clone)")
         {
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(5);
             Debug.Log("Enemy has collided with wall");
             Destroy(collision.gameObject);
         }

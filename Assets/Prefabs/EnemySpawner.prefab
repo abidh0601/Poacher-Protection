@@ -183,10 +183,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b861884be7894743a6c32cbfbcf92cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxChild: 7
   spawnPoints: {fileID: 5878833161279377763, guid: 41f8e007a25875441bffab790c6b46d4,
     type: 3}
   spawn: {fileID: 1109806391616283415, guid: 913c5292499d89e4a8c9f079fe723b31, type: 3}
   homePoints: []
+  nightTime: 0
 --- !u!1 &8643062188423081326
 GameObject:
   m_ObjectHideFlags: 0
