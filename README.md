@@ -9,7 +9,7 @@
 - Xcode 12 (or most recent version)
 - IOS Device (Iphone X or newer)
 
-## MacOs Build Steps
+## MacOs / iOS Build Steps
 1. Clone the repo or download the zipfile and unzip it 
 2. Open Unity Hub and locate the project to add it to your project list
 3. Open the project in Unity. 
@@ -27,5 +27,22 @@
 11. The application is now live on Iphone. 
 12. While the application is open, Strap in the phone to Google VR, connect corresponding control and begin gameplay. 
 
-## Windows 
-Instructions Pending
+## Windows / Android Build Steps
+1. Clone the repo or download the zipfile and unzip it 
+2. Open Unity Hub and locate the project to add it to your project list
+3. Open the project in Unity. 
+4. Navigate to File > Build Settings
+5. If Unity icon does not appear next to Android, toggle Android and click "Switch platform". This step can be skipped if Unity icon appears next to Android
+6. Press build and choose location other than Unity folder to build the apk to.
+... Wait ... 
+7. Once build is complete, connect Android phone to Windows and toggle "File Transfer" in usb connection options on Android phone.
+8. A file explorer should appear in Windows, if it doesnt open a new file explorer window and navigate to android device.
+9. Open a new file explorer and navigate to where the apk was build.
+10. Copy over apk file to any folder inside android phone. For this example we will use downloads folder.
+11. Using android phone, open the app files and navigate to the downloads folder. 
+12. Locate the apk and press it.
+13. Android might ask you to change sending in order to install apps from third party sources. If asked, enable installation from third party sources.
+14. Finish installing the apk to Android phone.
+15. Locate installed app in apps drawer, app should have the name EnvironmentVR and would have a Unity icon.
+16. Run the application
+17. While the application is open, Strap in the phone to Google VR, connect corresponding control and begin gameplay. 
